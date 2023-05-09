@@ -15,6 +15,4 @@ def strange_pattern(dims):
 
 
 if __name__ == "__main__":
-    # use this for your own testing!
-    print(strange_pattern((8,8)))
     pass

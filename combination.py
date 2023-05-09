@@ -13,5 +13,4 @@ def combination(arr1, arr2, axis=0):
 
 
 if __name__ == "__main__":
-    # use this for your own testing!
     pass

@@ -1,5 +1,3 @@
-import random
-
 import numpy as np
 
 
@@ -29,5 +27,4 @@ def gaussian_analysis(loc, scale, lower_bound, upper_bound):
 
 
 if __name__ == "__main__":
-    gaussian_analysis(0.5, 0.5, 0, 100)
     pass
