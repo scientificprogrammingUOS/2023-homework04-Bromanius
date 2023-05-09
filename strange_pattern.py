@@ -1,13 +1,20 @@
+import random
+
 import numpy as np
+
 
 # implement the function strange pattern
 
-def strange_pattern():
-    # delete the NotImplementedError when you write your function.
-    raise NotImplementedError
+def strange_pattern(dims):
+    arr = np.full(dims, False)
+    for i in range(dims[0]):
+        for j in range(dims[1]):
+            if (i + j) % 3 == 0:
+                arr[i, j] = True
+    return arr
 
 
 if __name__ == "__main__":
     # use this for your own testing!
-
+    print(strange_pattern((8,8)))
     pass
